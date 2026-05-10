@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi,wght@1,900&display=swap');
+body{
+    font-family: 'Hubballi', cursive;
+
+    margin: 0;
+    width: 50%;
+  }
+.body_section{
+     background-color: #605bbc; 
+}
+
+  @font-face{
+    font-family: "Lovely Home";
+    src:local('Lovely Home'), 
+    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
+
+  }
+.navbar-light .navbar-nav .nav-link {
+    color: #1c2429;
+}
+.brand-name ,.navbar-light .navbar-brand{
+      /* font-family: "Brush Script MT"; */
+      /* margin-bottom: 3px; */
+      font-family: "Lovely Home";
+      font-size: 50px;
+      font-weight: bold;
+      color: black;
+  }
+.headerachor {
+    color: black;
+    margin: 0 7px 0 7px;
+    font-size: 25px;
+  }
+p#ins {
+    font-size: 30px;
+}
+  video {
+    margin-bottom: 40px;
+      
+}
+
+  
+      .projectimage {
+    width: 60%;
+    height: 62%;
+    margin-left: 144px;
+}
+  }
+
+  
+
+  .project-heading{
+    margin: auto;
+    width: 60%;
+    
+    text-align: center;
+  }
+  .P-heading{
+    padding-bottom: 10px;
+    font-size : 40px;
+  }
+
+  .p-text{
+   font-size: 20px;
+    color: #151616;
+    margin-bottom: 388px;
+    margin-right: 96px;
+  }
+
+  .Project-box{
+    color:black;
+    text-decoration: none;
+  }
+
+  .col-sm-6{
+    padding-bottom: 20px;
+  }
+
+
+  .boxx {
+    background-color: #fff;
+    border-color: white;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.356);
+  }
+  .boxx:hover{
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.952);
+  }
+
+
+  .Project-box:hover{
+    color: black;
+    text-decoration: none;
+  }
+
+ .iconify{
+   width:40px;
+   height: 40px;
+   float: right;
+ }
+
+ .project-text{
+   color :#868e96;
+   
+   font-weight: 300;
+ }
+h1.m-title\.splitting-text-anim-1\.scroll-animate {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: "Lovely Home"; 
+    font-size: 40px;
+    line-height: 1;
+    color: black;
+    font-weight: 400;
+    text-align: center;}
+ 
+ @media only screen and (max-width : 764px){
+   .project-heading{
+     width: 100%;
+   }
+ 
+}
+
+
+  footer{
+    padding-top: 2%;
+    color: white;
+    text-align: center;
+       padding-bottom: 2%;
+  }
