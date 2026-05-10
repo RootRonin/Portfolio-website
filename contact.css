@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Hubballi,wght@1,900&display=swap');
+body{
+    font-family: 'Hubballi', cursive; 
+    font-weight: 200;
+    margin: 0;
+  }
+  .body_section{
+   
+     background-color: #605bbc;
+}
+  a{
+    text-decoration: none;
+  }
+  
+  @font-face{
+    font-family: "Lovely Home";
+    src:local('Lovely Home'), 
+    url("Image/LovelyHome-9aBZ.ttf") format('truetype');
+
+  }
+
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 4px;
+    border: 4px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 4px;
+    margin-left: 247px;
+    /* margin-right: -21px; */
+    resize: vertical;
+}
+h3 {
+    text-align: center;
+    font-size: 50px;
+    color: #cbd1d6;
+}
+input[type=submit] {
+  background-color: white;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+     margin-left: 240px;
+}
+
+input[type=submit]:hover {
+  background-color: #5c57bb;
+
+   
+}
+
+.container {
+  border-radius: 5px;
+}
+.brand-name ,.navbar-light .navbar-brand{
+      /* font-family: "Brush Script MT"; */
+      /* margin-bottom: 3px; */
+      font-family: "Lovely Home";
+      font-size: 50px;
+      font-weight: bold;
+      color: black;
+  }
+  
+  
+  .headerachor {
+    color: black;
+    margin: 0 7px 0 7px;
+    font-size: 25px;
+  }
+  
+ 
+
+  #contact{
+      padding: 20px 20px 10px;
+  }
+ 
+
+  .first-section{
+      text-align: center;
+  }
+
+.Profilepic {
+    border-radius: 100%;
+    width: 202px;
+    height: 194px;
+    border: 8px solid;
+    border-color: #27253f;
+    box-shadow: 0 10px 30px -15px rgb(0 0 0 / 90%);
+}
+.reach{
+    margin-top: 25px;
+    margin-bottom: 20px;
+   font-family: "Lovely Home";
+    font-size: 40px;
+    line-height: 2;
+    color: black;
+    font-weight: 400;
+    text-align: center;
+}
+  .context{
+    text-align: center;
+    padding-top: 20px;
+}
+
+  h1{
+      font-weight: bold;
+  }
+   
+  p{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      color:blackS;
+  }
+
+  .ico{
+    padding: 0;
+  }
+
+  .icon{
+      text-decoration: none;
+      list-style: none;
+      margin: 0 7px 0;
+      display: inline;
+      
+  }
+
+  .github{color: gray;}
+  .instagram{
+    color: #fb3958;
+  }
+  .linkedin{
+    color: #0e76a8;
+  }
+  .google{
+    color: #ea4335;
+  }
+
+  .github:hover , .instagram:hover , .google:hover , .linkedin:hover{
+      color: black;
+  }
+
+  .Resume{
+      background-color: #6c63ff;
+  }
+  .Resume:hover{
+      color: black;
+      background-color: white;
+  }
+
+  .second-section{
+    text-align: center;
+  }
+
+  
+
+.contact__information{
+   display: flex;
+   margin-bottom: var(--mb-2);
+}
+
+.contact__icon{
+   font-size: 2rem;
+   color: var(--first-color);
+   margin-right: var(--mb-0-75);
+}
+
+.contact__title{
+   font-size: var(--h3-font-size);
+   font-weight: var(--font-medium);
+}
+
+.contact__subtitle{
+   font-size: var(--small-font-size);
+   color: var(--text-color-light);
+}
+
+.contact__content{
+   background-color: var(--input-color);
+   border-radius: .5rem;
+   padding: .75rem 1rem .25rem;
+}
+
+.contact__label{
+   font-size: var(--smaller-font-size);
+   color: var(--title-color);
+}
+
+.contact__input{
+  
+   background-color: var(--input-color);
+   color: var(--text-color);
+   font-family: var(--body-font);
+   font-size: var(--normal-font-size);
+  
+   outline: none;
+   padding: .25rem .5rem .5rem 0;
+}
+legend {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin-left: 50px;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    line-height: inherit;
+    color: inherit;
+    white-space: normal;}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #1c2429;
+}
+  footer{
+   
+    padding-top: 2%;
+    color: white;
+    padding-bottom: 2%;
+    text-align: center;
+  }
